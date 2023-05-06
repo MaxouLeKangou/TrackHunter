@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
+    "tailwindcss": "^3.3.2",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
