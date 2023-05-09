@@ -9,6 +9,9 @@
     },
     {
       "path": "./tsconfig.vitest.json"
+    },
+    {
+      "types": ["vite/client", "vite-plugin-pages/client"]
     }
   ]
 }
