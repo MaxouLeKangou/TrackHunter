@@ -11,9 +11,9 @@ N'oubliez pas de créer un fichier TOKEN.json et entrer votre clé API [RIOT GAM
 <br />
 
 ## 👀 **Comment utiliser correctement TrackHunter.Game ?**
-Vous pouvez accèder au tracker officiel en utilisant le lien [ici](trackhuntergame.bessarion.fr) ou si dessous.<br />
+Vous pouvez accèder au tracker officiel en utilisant le lien [ici](https://trackhuntergame.bessarion.fr) ou si dessous.<br />
 ```
-trackhuntergame.bessarion.fr
+https://trackhuntergame.bessarion.fr
 ```
 <br />
 
