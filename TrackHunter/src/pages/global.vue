@@ -1,3 +1,3 @@
 <template>
-    <h1 class="font-family: anton; ">Global</h1>
+    <h1 class="px-10">Global</h1>
 </template>

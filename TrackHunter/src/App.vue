@@ -5,6 +5,6 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <RouterView />
   <li>
-    <RouterLink to="/global" class="font-['anton']">global</RouterLink>
+    <RouterLink to="/global" class="px-10">global</RouterLink>
   </li>
 </template>
