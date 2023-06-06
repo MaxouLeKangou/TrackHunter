@@ -23,6 +23,14 @@ module.exports = {
       'Anton': ['Anton', 'sans-serif'],
       'Ubuntu': ['Ubuntu', 'sans-serif'],
     },
+    screens: {
+      "sm": '640px',
+      "md": '768px',
+      "lg": '1000px',
+      "xl": '1440px',
+      "UHD": '1920px',
+      "2xl": '2560px',
+    },
   },
   plugins: [],
 }

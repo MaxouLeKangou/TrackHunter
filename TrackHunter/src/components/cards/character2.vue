@@ -3,7 +3,7 @@
     import { player } from '../../pages/index.vue';
 
     const identifiant = player;
-    const agent = await getAgent(identifiant, 0);
+    const agent = await getAgent(identifiant, 1);
 </script>
 
 <template>
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="absolute inset-0 rounded-[24px] overflow-hidden xl:overflow-visible">
-            <img class="h-full w-full mt-[10px] right-0 pl-[60px] xl:h-[80%] object-cover xl:pt-[40px] xl:pl-[100px] m-0" :src="agent?.[1]" alt="">
+            <img class="h-[80%] object-cover pt-[40px] pl-[100px] m-0" :src="agent?.[1]" alt="">
         </div>
     </main>
 </template>

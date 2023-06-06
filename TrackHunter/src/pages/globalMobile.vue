@@ -3,6 +3,7 @@
     import Rank from '@/components/cards/rank.vue'
     import Character from '@/components/cards/character.vue'
     import Gun from '@/components/cards/gun.vue'
+    import Overview from '@/components/cards/overview.vue'
 </script>
 
 <template>
@@ -15,11 +16,25 @@
         </div>
     </header>
 
-    <main class="mx-4 grid grid-cols-2 gap-3 lg:grid-cols-4">
-        <Rank />
-        <Character />
-        <Gun />
-        <Gun />
+    <main>
+        <div>
+            <div class="m-4 grid grid-cols-1">
+                <Rank />
+            </div>
+            <div class="m-4 grid grid-cols-2 gap-3">
+                <Character />
+                <Character/>
+            </div>
+        </div>
+        <div>
+            <div class="m-4 grid grid-cols-2 gap-3">
+                <Gun />
+                <Gun />
+            </div>
+        </div>
+        <div class="m-4">
+            <Overview />
+        </div>
     </main>
     <router-view />
 </template>

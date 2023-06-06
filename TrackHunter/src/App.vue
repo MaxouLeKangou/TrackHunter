@@ -11,13 +11,14 @@
 </script>
 
 <template>
-  <RouterView />
-  <nav class="fixed bottom-0 bg-black-75 w-full h-20 flex justify-content space-x-[1%] place-content-center items-center rounded-tl-[24px] rounded-tr-[24px] ">
+  <Suspense>
+    <RouterView />
+  </Suspense>
+  <nav class="fixed z-20 bottom-0 bg-black-75 w-full h-20 flex justify-content space-x-[1%] place-content-center items-center rounded-tl-[24px] rounded-tr-[24px] xl:hidden">
     <RouterLink to="/characters"><IconCharacters class="h-6" :class="{ 'fill-blue': state == 0 }" /></RouterLink>
     <RouterLink to="/shots"><IconShots class="h-6" :class="{ 'fill-blue': state == 0 }"/></RouterLink>
-    <RouterLink to="/global"><IconGlobal class="h-6" :class="{ 'fill-blue': state == 0 }" /></RouterLink>
+    <RouterLink to="/globalShow"><IconGlobal class="h-6" :class="{ 'fill-blue': state == 0 }" /></RouterLink>
     <RouterLink to="/maps"><IconAreas class="h-6" :class="{ 'fill-blue': state == 0 }" /></RouterLink>
     <RouterLink to="/profil"><IconProfil class="h-6" :class="{ 'fill-blue': state == 0 }" /></RouterLink>
   </nav>
-  
 </template>
